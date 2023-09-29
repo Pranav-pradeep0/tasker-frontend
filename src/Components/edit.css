@@ -1,0 +1,15 @@
+.edit-cont{
+    background-color: #313131;
+    margin-top: 80px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.edit-content{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,33 @@
+.content-parent{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.task-lists{
+  width: 25%;
+}
+
+.contents{
+  width: 60%;
+}
+
+@media(width < 900px){
+  .content-parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding-inline: 40px;
+  }
+  
+  .task-lists{
+    width: 100%;
+  }
+  
+  .contents{
+    width: 100%;
+  }
+}

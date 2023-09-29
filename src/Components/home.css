@@ -1,0 +1,25 @@
+.tasks-container{
+    background-color: #313131;
+    margin-top: 80px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.tasks-container input{
+    background-color: transparent;
+    border: none;
+    border-bottom: #ffdf7e 2px solid;
+    border-radius: 0px;
+    color: #ccc;
+}
+
+.tasks-container input:focus{
+    background-color: transparent;
+    border-color: #ffc107;
+    box-shadow: none;
+    color: #ccc;
+}
+
+.tasks-container input::placeholder{
+    color: #ccc;
+}

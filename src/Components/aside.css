@@ -1,0 +1,26 @@
+.aside button{
+    display: flex;
+    padding-inline: 20%;
+    margin-inline: auto;
+    margin-block: 40px;
+}
+
+.aside ul{
+    margin-inline: 20px;
+    gap: 25px;
+    margin-block: 50px;
+}
+
+.aside li{
+    background-color: #313131;
+    color: #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px #313131 solid !important;
+}
+
+.test-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
